@@ -1,0 +1,318 @@
+* { padding: 0%;
+margin: 0%;
+box-sizing: border-box;
+
+}
+
+.cuerpo {width: 100%;
+max-width: 1401px;
+
+}
+
+.cabecera { background-color: grey;
+    display: flex; 
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+
+.logoyconf { display: flex;
+flex-flow: row ;
+justify-content:left;
+color: white;
+
+}
+
+.listanav { list-style: none;
+padding: 30px ;
+
+}
+
+   .listanav li { display: inline-block;
+padding: 0px 10px ;}
+
+.listanav li a {transition:all 0.3s ease 0s ;
+ 
+}
+.linkgris { color: darkgray;}
+
+
+.conf { padding: 30px ;}
+.fotologo {
+    cursor: pointer;
+height: 70px;
+width: 100px;}
+
+.fotologo {
+height: 100%;}
+
+a {       text-decoration: none;
+
+}
+
+.comprar1 {color: aqua;}
+.conferencia1 { color: white;}
+
+/*main*/
+.contenedorprincipal {
+  width: 100%;
+  max-width: 1400px;
+    height: 500px;
+background-image: url(./imagenes/ba1.jpg);
+background-position: center;
+background-size: cover;
+background-attachment: fixed;
+ }
+
+ .conf2 {margin: 30px;}
+ .textoprincipal {
+     color: aliceblue;
+      padding: 0;
+height: 100%;
+width: 50%;
+display: flex;
+flex-direction: column;
+align-items:flex-end;
+justify-content: center;
+float: right;}
+
+.a {text-decoration: none;}
+ .botones {
+margin-right: 20px;
+ }
+.contenedorprincipal {height: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-end;
+    justify-content: center;
+    float: right;
+}
+
+.orador { color: white;}
+.botonorador { background-color: transparent;
+    border: 1px solid black;
+    height: 52px;
+    width: 150px;
+    
+        text-align: center;
+        text-decoration: none;
+        font-size: 14px;
+        margin: 20px 20px;
+        cursor: pointer; 
+
+}
+.botontickets {background-color: green;
+    border: 1px solid black;
+height: 52px;
+width: 150px;
+
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    margin: 20px 20px;
+    cursor: pointer; }
+
+    /* segunda parte*/
+
+    .tarjetatexto {
+    width: 100%;
+    padding: 20px;
+    max-width: 1250px;
+    display: flex;
+    align-items: center;
+   justify-content: center;
+ flex-flow: row wrap;}
+
+.texto2tarjetas {padding-left:20px;
+    align-items: center;
+justify-content: center;}
+
+.tarjetaoradores { 
+    padding: 20px;
+    width: 100%;
+max-width: 1250px;
+display: flex;
+ justify-content:center;
+flex-flow: row wrap;
+}
+
+
+.botonestarjeta { display: flex;
+flex-flow: row;
+}
+.card { width: 100%;
+max-width: 228px;
+border: 1px solid grey;
+margin:20px;
+border-radius: 6px;
+overflow: hidden;
+}
+
+.fotosteve {max-width: 228px;
+max-height: 221px;}
+.fotosteve2 {max-width: 228px;
+ max-height: 228px;}
+ .fotosteve3 {max-width: 250px;
+  max-height: 228px;}
+
+/*textoencolores de tarjeta*/
+
+.javascript {background-color: yellow;
+    border-radius: 5px;
+color: black;
+font-size: 13px;
+margin: 2px;
+font-weight: bold;
+}
+
+.react {background-color: lightblue;
+    border-radius: 5px;
+    font-size: 13px;
+color: white;
+margin: 2px;
+font-weight: bold;
+}
+.negocios{ background-color: grey;
+    border-radius: 5px;
+    font-size: 13px;
+color: white;
+margin: 2px;
+font-weight: bold;}
+
+.starups{background-color:red;
+    border-radius: 5px;
+    font-size: 13px;
+color: white;
+margin: 2px;
+font-weight: bold;}
+
+.tarjeta1 { padding: 10px;}
+
+/*4ta parte */
+
+.contenedor2 {
+    
+    display: flex;
+flex-flow: row wrap;
+
+background-color: rgb(28, 32, 32);
+}
+.playa {
+    width:100%;
+    max-width: 700px;
+    
+border: solid  rgb(28, 32, 32) 1px;}
+
+.textoctubre {
+    padding-left: 20px;
+    border: solid  rgb(28, 32, 32) 1px;
+
+    background-color: rgb(28, 32, 32);
+    color: white;
+width: 100%;
+justify-content: center;
+max-width: 560px;
+display: flex;
+flex-flow: column;
+}
+
+.botones { justify-content: start;}
+.conocemas2 { 
+    color :white;}
+.botonconoce { 
+    border-radius: 5px;
+margin-top: 10px;
+    background-color: transparent;
+    border: 1px solid white;
+    height: 30px;
+    width: 65px;
+    text-decoration: none;
+    font-size: 9px;
+    cursor: pointer; 
+    font-weight: bold; }
+.parrafo4 {padding-top: 5px;}
+
+/* formulario*/
+
+.contenedor3 
+{
+display:flex;
+flex-flow: column wrap;
+max-width: 1400px;}
+
+.formulariotitulo { 
+    padding: 20px;
+    display: flex;
+    flex-flow: column;
+justify-content: center;
+align-items: center;
+}
+.convertite { font-size: 13px;}
+
+.form {display:flex;
+flex-flow: column ;
+width: 100%;
+max-width: 1400px;
+justify-content: center;
+align-items: center;}
+
+.controls1 {
+    padding: 5px;
+    width: 600px;
+   
+    display: flex;
+flex-flow: row wrap;
+justify-content: space-evenly;
+}
+.controls {width: 250px;
+height: 30px;
+
+}
+.controls2 {width: 529px;
+    height: 100px;
+    margin-bottom: 5px;
+}
+
+.textopieformulario {
+     display: flex;
+      justify-content: left;
+      align-items: flex-start;
+    
+    }
+.botonform { 
+    border-radius: 5px;
+    margin: 5px;
+    margin-bottom: 10px;
+    width: 529px; 
+    height: 50px;
+background-color: rgb(60, 179, 60); 
+color: white;
+text-decoration: none;
+font-size: 15px;
+cursor: pointer; 
+font-weight: bold;
+
+}
+/*pie*/
+.pie {
+    background-color: rgb(32, 32, 90);
+    width: 100%;
+display: flex;
+flex-flow: row wrap;
+justify-content: space-around;}
+
+.navpie a { color: white;}
+.navegadorpie {
+     list-style: none;
+    padding: 30px ;
+    
+    }
+    
+.navegadorpie li { display: inline-block;
+    padding: 0px 30px ;}
+    
+    .navegadorpie li a {transition:all 0.3s ease 0s ;
+        
+    }
+    
